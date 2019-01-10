@@ -34,7 +34,7 @@ import java.util.stream.Collectors;
 public class AuthenticatedUser extends AbstractUser {
   // TODO need to figure out issuer/domain/pk representation
   private final String authenticatedAs;
-  private final String actingAs;
+  private final String actingAs; 
   private final String fullDisplayName;
   private final Set<String> authority;
 
